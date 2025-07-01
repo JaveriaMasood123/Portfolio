@@ -115,62 +115,55 @@
         <!-- Projects Section -->
         <section class="projects-section" id="projects">
             <h2>My <span>Projects</span></h2>
-            <div class="projects-cards">
-                <div class="projects-card-box">
-                    <div class="projects-card-box__icons">
-                        <i class="fa-solid fa-suitcase"></i>
-                    </div>
-                    <div class="projects-card-box__desc">
-                        <h4>Business Website</h4>
-                        <p>A Business website crafted using HTML & CSS showcasing a modern design and interactive elements, serving as a template for
-                         diverse web projects.
-                        </p>
-                    </div>
-                    <div class="projects-card-box__buttons">
-                        <button class="btn btn-dark-outlined">
-                            <a href="https://javeriamasood123.github.io/Business-Website/" target="_blank">View <i
-                                    class="fa-solid fa-external-link"></i></a>
-                        </button>
-                    </div>
-                </div>
+             <div class="projects-cards">
+
+           <div class="projects-card-box">
+    <div class="projects-card-box__icons">
+        <i class="fa-solid fa-cloud-sun"></i> <!-- Weather icon -->
+    </div>
+    <div class="projects-card-box__desc">
+        <h4>Weather App</h4>
+        <p>A simple and interactive weather application built using HTML, CSS & JavaScript that fetches live weather data for any city using API.</p>
+    </div>
+    <div class="projects-card-box__buttons">
+        <button class="btn btn-dark-outlined">
+            <a href="https://javeriamasood123.github.io/Weather-App/" target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+        </button>
+    </div>
+</div>
+
+                    
 
                 <div class="projects-card-box">
-                    <div class="projects-card-box__icons">
-                        <i class="fa-solid fa-music"></i>
-                    </div>
-                    <div class="projects-card-box__desc">
-                        <h4>Music Player</h4>
-                        <p>A music player built with HTML & CSS offering 
-                            anintuitive interface for playlist management and audio playback, optimized for both desktop
-                            an mobile experiences.
-                        </p>
-                    </div>
-                    <div class="projects-card-box__buttons">
-                        <button class="btn btn-dark-outlined">
-                            <a href="https://javeriamasood123.github.io/Music-Player/"
-                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
-                        </button>
-                    </div>
+    <div class="projects-card-box__icons">
+        <i class="fa-brands fa-github"></i> <!-- GitHub icon -->
+    </div>
+    <div class="projects-card-box__desc">
+        <h4>GitHub Dev Finder</h4>
+        <p>A React.js-based app that allows users to search GitHub profiles and view details like repos, followers, and more using the GitHub API.</p>
+    </div>
+    <div class="projects-card-box__buttons">
+        <button class="btn btn-dark-outlined">
+            <a href="https://javeriamasood123.github.io/Github-dev-finder/" target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+        </button>
+    </div>
+</div>
 
-                </div>
+<div class="projects-card-box">
+    <div class="projects-card-box__icons">
+        <i class="fa-solid fa-book-open"></i> <!-- Dictionary icon -->
+    </div>
+    <div class="projects-card-box__desc">
+        <h4>Dictionary App</h4>
+        <p>A dynamic dictionary app built with JavaScript that allows users to search for word meanings using an external API. Clean UI and instant results.</p>
+    </div>
+    <div class="projects-card-box__buttons">
+        <button class="btn btn-dark-outlined">
+            <a href="https://javeriamasood123.github.io/React-Dictionary/" target="_blank">View <i class="fa-solid fa-external-link"></i></a>
+        </button>
+    </div>
+</div>
 
-                <div class="projects-card-box">
-                    <div class="projects-card-box__icons">
-                        <i class="fa-solid fa-id-card"></i>
-                    </div>
-                    <div class="projects-card-box__desc">
-                        <h4>Log-in Page</h4>
-                        <p>A sleek log-in page designed using HTML & CSS
-                            ensuring user-friendly interactions and a secure authentication process.
-                        </p>
-                    </div>
-                    <div class="projects-card-box__buttons">
-                        <button class="btn btn-dark-outlined">
-                            <a href="https://javeriamasood123.github.io/Login-Page/"
-                                target="_blank">View <i class="fa-solid fa-external-link"></i></a>
-                        </button>
-                    </div>
-                </div>
 
             </div>
         </section>
@@ -178,20 +171,23 @@
         <!-- Contact Section -->
         <section class="contact-section" id="contact">
             <h2>Contact <span>ME!</span></h2>
-            <form action="">
-                <div>
-                    <input type="text" name="name" placeholder="FullName" required>
-                </div>
-                <div>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                <div>
-                    <textarea name="message" placeholder="Type Message" rows="5"></textarea>
-                </div>
-                <div>
-                    <button class="btn btn-primary">SEND MESSAGE</button>
-                </div>
-            </form>
+
+          <form action="https://formspree.io/f/abcxyzpq" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <div>
+    <input type="text" name="name" placeholder="Full Name" required>
+  </div>
+  <div>
+    <input type="email" name="email" placeholder="Email" required>
+  </div>
+  <div>
+    <textarea name="message" placeholder="Type Message" rows="5" required></textarea>
+  </div>
+  <div>
+    <button class="btn btn-primary" type="submit">SEND MESSAGE</button>
+  </div>
+</form>
+
             <div class="contact__github">
                 <button class="btn">
                     <a href="https://github.com/JaveriaMasood123" target="_blank">
